@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Moflix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_movies">Movies</string>
+    <string name="text_series">TV Series</string>
+    <string name="text_artist">Artist</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_view_more">View More</string>
+    <string name="text_now_playing">Now Playing</string>
+    <string name="text_upcoming_movies">Upcoming Movies</string>
+    <string name="text_search">Search...</string>
+    <string name="text_airing_today">Airing Today</string>
+    <string name="text_ongoing_tv_series">Ongoing TV Series</string>
+    <string name="text_content_description_backdrop">Backdrop Image</string>
+    <string name="text_image_poster">Image Poster</string>
+    <string name="text_transition_backdrop">image_backdrop_transition</string>
+    <string name="text_transition_poster">image_poster_transition</string>
+    <string name="text_transition_poster_people">image_poster_transition_people</string>
+    <string name="text_unfavorite">Unfavorite</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_favorite">Favorite</string>
+    <string name="text_updated">Updated</string>
+    <string name="text_updated_failed">Update Failed</string>
+    <string name="text_description">Description</string>
+    <string name="text_genre">Genre</string>
+    <string name="text_cast">Cast</string>
+    <string name="text_total_episodes">Total Episode : %1$s</string>
+    <string name="text_season">Season</string>
+    <string name="search">Search</string>
+    <string name="release_date_exception">Release Date Not Found</string>
+    <string name="genre_exception">Genre not found</string>
+    <string name="text_biography">Biography</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_birthday">Birthday</string>
+    <string name="text_known_for">Known For</string>
+    <string name="biography_dummy">Park Soo-young (born September 3, 1996), also known as Joy, is a South-Korean singer and dancer. She is the lead rapper and vocalist of South-Korean girl group, Red Velvet.</string>
+    <string name="text_female">Female</string>
+    <string name="text_male">Male</string>
+    <string name="data_not_found">Data not found</string>
+
+
+    <string name="release_reminder">Release Reminder</string>
+    <string name="text_detail_release_reminder">Reminder showing the movie that released today</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="text_detail_daily_reminder">Reminder for return to app</string>
+    <string name="text_change_language">Change language</string>
+    <string name="text_detail_change_language">Choice of Indonesian or English</string>
+    <string name="setup_alarm_daily">Repeating alarm set up</string>
+    <string name="text_daily_reminder">Let\'s to the application</string>
+    <string name="text_daily_reminder_canceled">Daily reminder alarm canceled</string>
+    <string name="text_new_movie">New Movie</string>
+    <string name="text_notif_new_movie">Now there are %1$s new films, click to see more</string>
+    <string name="setup_alarm_release">Release reminder set up</string>
+    <string name="text_release_now">Release Now Movie</string>
+    <string name="release_reminder_cancel">Release reminder alarm canceled</string>
+    <string name="text_logo" translatable="false">Logo</string>
+
+
+</resources>

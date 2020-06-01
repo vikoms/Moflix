@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.series.SeriesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edt_search_series"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_form_item"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="10dp"
+            android:hint="@string/text_search"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_title_popular"
+            style="@style/TextContent.TitlePreview"
+            android:layout_marginTop="20dp"
+            android:text="@string/text_popular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_search_series" />
+
+        <TextView
+            android:id="@+id/view_more_popular"
+            style="@style/TextContent.ViewMore"
+            android:text="@string/text_view_more"
+            app:layout_constraintBottom_toBottomOf="@+id/text_title_popular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/text_title_popular"
+            app:layout_constraintTop_toTopOf="@+id/text_title_popular"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_series_popular"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_title_popular"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/item_row" />
+
+        <ProgressBar
+            android:id="@+id/pg_popular_series"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/rv_series_popular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rv_series_popular" />
+
+
+        <TextView
+            android:id="@+id/text_title_airing_today"
+            style="@style/TextContent.TitlePreview"
+            android:text="@string/text_airing_today"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_series_popular" />
+
+        <TextView
+            android:id="@+id/view_more_airing_today"
+            style="@style/TextContent.ViewMore"
+            android:text="@string/text_view_more"
+            app:layout_constraintBottom_toBottomOf="@+id/text_title_airing_today"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/text_title_airing_today"
+            app:layout_constraintTop_toTopOf="@+id/text_title_airing_today"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_series_airing_today"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_title_airing_today"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/item_row" />
+
+        <ProgressBar
+            android:id="@+id/pg_airing_today_series"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/rv_series_airing_today"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rv_series_airing_today" />
+
+
+        <TextView
+            android:id="@+id/text_title_now_playing"
+            style="@style/TextContent.TitlePreview"
+            android:text="@string/text_ongoing_tv_series"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_series_airing_today" />
+
+        <TextView
+            android:id="@+id/view_more_ongoing"
+            style="@style/TextContent.ViewMore"
+            android:text="@string/text_view_more"
+            app:layout_constraintBottom_toBottomOf="@+id/text_title_now_playing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/text_title_now_playing"
+            app:layout_constraintTop_toTopOf="@+id/text_title_now_playing"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_series_ongoing"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_title_now_playing"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/item_row" />
+
+        <ProgressBar
+            android:id="@+id/pg_ongoing_series"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/rv_series_ongoing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rv_series_ongoing" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

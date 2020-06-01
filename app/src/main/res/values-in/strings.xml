@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Moflix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_movies">Film</string>
+    <string name="text_series">Serial TV</string>
+    <string name="text_artist">Artis</string>
+    <string name="text_popular">Populer</string>
+    <string name="text_view_more">Lihat Semua</string>
+    <string name="text_now_playing">Sedang Tayang</string>
+    <string name="text_upcoming_movies">Film Mendatang</string>
+    <string name="text_search">Cari...</string>
+    <string name="text_airing_today">Tayang Hari Ini</string>
+    <string name="text_ongoing_tv_series">Serial TV Yang Sedang Tayang</string>
+    <string name="text_content_description_backdrop">Backdrop Image</string>
+    <string name="text_image_poster">Image Poster</string>
+    <string name="text_transition_backdrop">image_backdrop_transition</string>
+    <string name="text_transition_poster">image_poster_transition</string>
+    <string name="text_transition_poster_people">image_poster_transition_people</string>
+    <string name="text_unfavorite">Hapus Favorit</string>
+    <string name="text_setting">Pengaturan</string>
+    <string name="text_favorite">Favorit</string>
+    <string name="text_updated">Terubah!</string>
+    <string name="text_updated_failed">Gagal Diubah</string>
+    <string name="text_description">Deskripsi</string>
+    <string name="text_genre">Genre</string>
+    <string name="text_cast">Pemeran</string>
+    <string name="text_total_episodes">Total Episode : %1$s</string>
+    <string name="text_season">Musim</string>
+    <string name="search">Cari</string>
+    <string name="release_date_exception">Tanngal rilis tidak ditemukan</string>
+    <string name="genre_exception">Genre not found</string>
+    <string name="text_biography">Biografi</string>
+    <string name="text_gender">Jenis Kelamin</string>
+    <string name="text_birthday">Ulang Tahun</string>
+    <string name="text_known_for">Peran</string>
+    <string name="biography_dummy">Park Soo-young (born September 3, 1996), also known as Joy, is a South-Korean singer and dancer. She is the lead rapper and vocalist of South-Korean girl group, Red Velvet.</string>
+    <string name="text_female">Wanita</string>
+    <string name="text_male">Pria</string>
+    <string name="data_not_found">Data tidak ditemukan</string>
+
+
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="text_detail_release_reminder">Pengigat untuk menunjukan film yang rilis hari ini</string>
+    <string name="daily_reminder">Pengigat Harian</string>
+    <string name="text_detail_daily_reminder">Pengingat untuk kembali ke aplikasi</string>
+    <string name="text_change_language">Ganti Bahasa</string>
+    <string name="text_detail_change_language">Pilih antara Bahasa Indonesia atau Bahasa Inggris</string>
+    <string name="setup_alarm_daily">Pengigat harian diatur</string>
+    <string name="text_daily_reminder">Ayo! masuk keaplikasi</string>
+    <string name="text_daily_reminder_canceled">Pengigat harian dibatalkan</string>
+    <string name="text_new_movie">Film Baru</string>
+    <string name="text_notif_new_movie">Sekarang terdapay %1$s film baru, klik untuk melihat</string>
+    <string name="setup_alarm_release">Pengigat rilis diatur</string>
+    <string name="text_release_now">Film tayang hari ini</string>
+    <string name="release_reminder_cancel">Pengigat rilis di batalkan</string>
+
+
+</resources>

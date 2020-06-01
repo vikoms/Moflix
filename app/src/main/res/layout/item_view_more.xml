@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+
+    <ImageView
+        android:id="@+id/img_view_more"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/backdrop"
+        android:transitionName="@string/text_transition_backdrop"
+        android:contentDescription="@string/text_content_description_backdrop" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:src="@drawable/gradient_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_rating_view_more"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_rating"
+        android:gravity="center"
+        android:text="4.8"
+        android:fontFamily="@font/quicksand_bold"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/item_ratingbar"
+        app:layout_constraintStart_toEndOf="@+id/item_ratingbar"
+        app:layout_constraintTop_toTopOf="@+id/item_ratingbar" />
+
+
+    <TextView
+        android:id="@+id/tv_title_view_more"
+        style="@style/TextContent.TitleViewMore"
+        android:layout_marginTop="35dp"
+        android:maxLines="2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="The Call of the Wild" />
+
+
+    <TextView
+        android:id="@+id/tv_release_view_more"
+        style="@style/TextContent.TitleViewMore"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title_view_more"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_view_more"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="2020-02-12" />
+
+
+    <RatingBar
+        android:id="@+id/item_ratingbar"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:progressBackgroundTint="#eaeaea"
+        app:layout_constraintEnd_toEndOf="@+id/tv_release_view_more"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_release_view_more"
+        app:layout_constraintTop_toBottomOf="@+id/tv_release_view_more" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

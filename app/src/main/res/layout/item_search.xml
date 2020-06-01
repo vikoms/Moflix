@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:src="@drawable/bg_item_searh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_poster_search"
+        android:layout_width="85dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/text_transition_poster"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@drawable/item_1" />
+
+    <TextView
+        android:id="@+id/tv_title_search"
+        style="@style/TextContent.Detail"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_poster_search"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        tools:text="The Call of the Wild" />
+
+    <TextView
+        android:id="@+id/tv_date_search"
+        style="@style/TextContent.Detail"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_title_search"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_search"
+        tools:text="2018-09-19" />
+
+
+    <RatingBar
+        android:id="@+id/item_ratingbar_search"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progressBackgroundTint="#eaeaea"
+        app:layout_constraintStart_toStartOf="@+id/tv_date_search"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date_search" />
+
+    <TextView
+        android:id="@+id/tv_rating_search"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_rating"
+        android:gravity="center"
+        android:text="4.8"
+        android:fontFamily="@font/quicksand_bold"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/item_ratingbar_search"
+        app:layout_constraintStart_toEndOf="@+id/item_ratingbar_search"
+        app:layout_constraintTop_toTopOf="@+id/item_ratingbar_search" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
