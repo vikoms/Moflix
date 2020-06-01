@@ -20,13 +20,8 @@ Moflix adalah sebuah aplikasi yang berguna untuk menampilkan daftar film , seria
 # Capture Aplikasi
 ![moflix banner](https://user-images.githubusercontent.com/36475127/83420603-192e6a80-a451-11ea-8e53-d71d7c2e990d.png)
 
-![List Popular movie](https://user-images.githubusercontent.com/36475127/83420657-23e8ff80-a451-11ea-9c87-3ec7f7b9562e.jpg)
+![popular movie](https://user-images.githubusercontent.com/36475127/83421258-ff415780-a451-11ea-9144-0417ce27dd5b.jpg)
 
-![Detail Actor](https://user-images.githubusercontent.com/36475127/83420749-424efb00-a451-11ea-9017-a93b50b34bbf.png)
+![detail actor](https://user-images.githubusercontent.com/36475127/83421392-3879c780-a452-11ea-85e2-2b5c1babbe65.jpg)
 
-![Detail TV Series or Movie](https://user-images.githubusercontent.com/36475127/83420869-6f031280-a451-11ea-829f-5a6f8160f17c.png)
-
-
-
-
-
+![detail series](https://user-images.githubusercontent.com/36475127/83421505-68c16600-a452-11ea-9736-ca3003b0b81b.jpg)
