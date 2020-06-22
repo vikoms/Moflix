@@ -1,6 +1,8 @@
 # Moflix
 Moflix adalah sebuah aplikasi yang berguna untuk menampilkan daftar film , serial tv, maupun artis
 
+Download APK
+ <a href="https://drive.google.com/file/d/1c-y4k2yBAzs7lQmX3R6-mt2P-inrWGP3/view?usp=sharingk"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 # Fitur
 * Daftar Film , Serial TV dan Artis
 * Cari Film, Serial TV dan Artis
